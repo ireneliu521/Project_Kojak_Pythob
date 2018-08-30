@@ -2,12 +2,12 @@
 ---------
 
 ### Domain
-One of my goals of this passion project is to build a machine learning model to predict customer lifetime value (CLV). CLV can help companies to determine the worth of their business and then attract investers for funding or increase the probability to borrow more money. Especially in the retail industry, getting current customers to purchase more ir more important than acquiring new customers. In this case, CLV can help companies make decisions more precisely.
+One of my goals of this passion project is to build a machine learning model to predict customer lifetime value (CLV). CLV can help companies to determine the worth of their business and then attract investers for funding or increase the probability of borrowing more money. Especially in the retail industry, getting current customers to purchase more is more important than acquiring new customers. In this case, CLV can help companies make their decisions more precisely.
 The two other goals are on sales returns and future sales forecasting. My concerns on predicting the sales returns will be elaborated in the knowns & unknowns section.
 
 ### Data
 
-The Superstore dataset contains 51,290 retail-to-customer transactions made in 2012-2015. There are 24 features corresponding to each transaction. Most of them are the information  directly related to the transaction, so I am planning to add more features which is related to the customers such as the gender based on their first name, adding average income of the area where the customers live.
+The Superstore dataset contains 51,290 retail-to-customer transactions made in 2012-2015. There are 24 features corresponding to each transaction. Most of them are the information directly related to the transaction, so I am planning to add more features related to the customers such as the gender based on their first name, the average income of the area where the customers live.
 
 ### Knowns & Unknowns
 
@@ -21,5 +21,3 @@ Unknown: The dataset is extremely imbalanced in terms of sales return. The numbe
 
 3. On Sales <br>
 Known: Time series analysis will be performed on the dataset to forecast the future sales. <br>
-
-Unknown: 
